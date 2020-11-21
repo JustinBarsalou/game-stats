@@ -1,4 +1,5 @@
 import './App.css';
+import Home from './components/Home'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
           <h1>Game Stats</h1>
         </p>
       </header>
+        <Home></Home>
     </div>
   );
 }
