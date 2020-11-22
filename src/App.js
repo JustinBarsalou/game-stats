@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
 import Home from './components/Home'
+const API = require('call-of-duty-api')();
+
 
 class App extends React.Component {
-
   
   render() {
     return (

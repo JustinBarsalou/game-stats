@@ -1,20 +1,16 @@
 import '../assets/css/Home.css'
 // const axios = require('axios');
 
-function Home() {
+const API = require('call-of-duty-api')();
 
+
+function Home() {
+  const log = process.env.REACT_APP_API_KEY;
+  console.log(log);
+  
   // const API_KEY = process.env.REACT_APP_API_KEY
   // const gamertag = 'kdkt_moist'
   // const platform = 'xbl'
-
-  // const options = {
-  //   method: 'GET',
-  //   url: 'https://call-of-duty-modern-warfare.p.rapidapi.com/multiplayer/Chob%252321309/battle',
-  //   headers: {
-  //     'x-rapidapi-key': API_KEY,
-  //     'x-rapidapi-host': 'call-of-duty-modern-warfare.p.rapidapi.com'
-  //   }
-  // };
 
   // fetch("https://call-of-duty-modern-warfare.p.rapidapi.com/multiplayer/Chob%252321309/battle", {
   //   "method": "GET",
