@@ -14,7 +14,9 @@ class App extends React.Component {
             <h1>Game Stats</h1>
           </p>
         </header>
+
           <Home></Home>
+          
       </div>
     );
   }

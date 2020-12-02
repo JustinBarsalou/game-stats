@@ -12,6 +12,7 @@ function Home() {
   // const gamertag = 'kdkt_moist'
   // const platform = 'xbl'
 
+
   // fetch("https://call-of-duty-modern-warfare.p.rapidapi.com/multiplayer/Chob%252321309/battle", {
   //   "method": "GET",
   //   "headers": {
@@ -26,6 +27,8 @@ function Home() {
   //   console.error(err);
   // });
 
+
+  
 
     return (
       <div className='Home'>
