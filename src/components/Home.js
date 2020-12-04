@@ -43,3 +43,55 @@ function Home() {
 
 
 export default Home;
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+// import React from 'react';
+// import axios from 'axios'
+// import '../assets/css/Home.css'
+// const API = require('call-of-duty-api')();
+
+
+// class Home extends React.Component {
+//   constructor(props){
+//     super(props);
+//     this.state = {
+//       data: ""
+//     }
+
+//     this.getData = this.getData.bind(this);
+//   }
+
+//   async function login(e) {
+//     e.preventDefault();
+//     try {
+//       // await API.login(<username>, <password>);
+//       console.log('login')
+//     }
+//      catch(err){
+//       console.log('Error:' + err)
+//     }
+
+//   }
+
+//   async getData(e) {
+//     e.preventDefault();
+
+//   }
+
+  
+//   render() {
+//     return (
+//       <div className='Home'>
+//         <section>
+//            Hello i am section 
+//        </section>
+//      </div>
+//     );
+//   }
+// }
+
+// export default Home;

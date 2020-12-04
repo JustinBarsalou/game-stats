@@ -1,10 +1,18 @@
 import React from 'react';
 import './App.css';
 import Home from './components/Home'
+import HomeTwo from './components/Home2'
 const API = require('call-of-duty-api')();
 
 
 class App extends React.Component {
+  // constructor(props){
+  //   super(props);
+  //   this.state = {
+  //     data: ""
+  //   }
+
+  // }
   
   render() {
     return (
@@ -16,6 +24,8 @@ class App extends React.Component {
         </header>
 
           <Home></Home>
+
+          <HomeTwo></HomeTwo>
           
       </div>
     );
