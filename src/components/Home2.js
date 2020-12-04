@@ -15,28 +15,28 @@ class HomeTwo extends React.Component {
     this.getData = this.getData.bind(this);
   }
 
-   async login(e) {
-    e.preventDefault();
-    try {
-      const result = await API.login("jbarustin@gmail.com", "Justintime8");
-      console.log('login')
-    }
-     catch(err){
-      console.log('Error:' + err)
-    }
+//    async login(e) {
+//     e.preventDefault();
+//     try {
+//       const result = await API.login("username", "password");
+//       console.log('login')
+//     }
+//      catch(err){
+//       console.log('Error:' + err)
+//     }
 
-  }
+//   }
 
-  async getData(e) {
-    e.preventDefault();
-    try {
-        const result = await API.MWleaderboard(1, "psn");
-        console.log("Data: " + result)
-     } 
-     catch(err) {
-        console.log('Error:' + err)
-     }
-  }
+//   async getData(e) {
+//     e.preventDefault();
+//     try {
+//         const result = await API.MWleaderboard(1, "psn");
+//         console.log("Data: " + result)
+//      } 
+//      catch(err) {
+//         console.log('Error:' + err)
+//      }
+//   }
 
   
   render() {
